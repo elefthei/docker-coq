@@ -20,4 +20,4 @@ RUN cd /tmp \
   && cd .. \
   && rm -rf coq-$VERSION
 
-ENTRYPOINT [ "/usr/bin/coqtop" ]
+CMD [ "/usr/local/bin/coqtop" ]
